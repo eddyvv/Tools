@@ -1,0 +1,212 @@
+[2019-12-11 09:49:11] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:51:07] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:51:50] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:51:51] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:52:03] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-12-11 09:52:03] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:52:26] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:52:26] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:52:49] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:53:47] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:53:56] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:54:00] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:54:01] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:54:17] 185.186.245.44:8099 timed out
+[2019-12-11 09:55:02] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:56:03] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:56:11] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:56:11] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:56:25] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:56:25] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:57:44] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:57:44] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:58:50] Shadowsocks started (4.1.8.0)
+[2019-12-11 09:58:51] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:01:36] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:02:06] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:02:14] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:02:14] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:02:16] System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.PortForwarder.Handler.ConnectCallback(IAsyncResult ar)
+[2019-12-11 10:03:29] HA switching to server: 185.186.245.44:8099
+[2019-12-11 10:03:29] Shadowsocks started (4.1.8.0)
+[2019-12-11 10:03:34] HA switching to server: 50.7.12.147:8097
+[2019-12-11 10:03:36] HA switching to server: 185.186.245.44:8099
+[2019-12-11 10:03:37] HA switching to server: 50.7.12.147:8097
+[2019-12-11 10:03:43] HA switching to server: 185.186.245.44:8099
+[2019-12-11 10:03:44] HA switching to server: 50.7.12.147:8097
+[2019-12-11 10:03:48] HA switching to server: 185.186.245.44:8099
+[2019-12-11 10:05:32] Shadowsocks started (4.1.8.0)
+[2019-12-11 14:13:56] Shadowsocks started (4.1.8.0)
+[2019-12-11 14:15:52] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-12-12 18:50:54] Shadowsocks started (4.1.8.0)
+[2019-12-12 18:50:58] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于意外的数据包格式，握手失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-12-12 18:52:23] Shadowsocks started (4.1.8.0)
+[2019-12-13 14:04:33] System.Exception: 端口 1080 已被占用
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+[2019-12-13 14:04:42] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1080
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-12-13 14:04:45] Shadowsocks started (4.1.8.0)
+[2019-12-13 14:05:03] HA switching to server: 185.186.245.44:8099
+[2019-12-13 14:05:03] Shadowsocks started (4.1.8.0)
+[2019-12-13 14:05:42] Shadowsocks started (4.1.8.0)
+[2020-01-26 12:26:51] Shadowsocks started (4.1.8.0)
+[2020-01-26 12:26:57] Shadowsocks started (4.1.8.0)
+[2020-01-26 12:27:39] 185.186.245.44:8099 timed out
+[2020-01-26 12:27:47] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2020-01-26 12:27:47] HA switching to server: 185.186.245.44:8099
+[2020-01-26 12:27:47] Shadowsocks started (4.1.8.0)
+[2020-01-26 12:27:49] HA switching to server: 50.7.12.147:8097
+[2020-01-26 12:27:55] HA switching to server: 185.186.245.44:8099
+[2020-01-26 12:28:11] HA switching to server: 50.7.12.147:8097
+[2020-01-26 12:28:11] 185.186.245.44:8099 timed out
+[2020-01-26 12:28:40] 50.7.12.147:8097 timed out
+[2020-01-26 12:28:40] HA switching to server: 185.186.245.44:8099
+[2020-01-26 12:28:45] 185.186.245.44:8099 timed out
+[2020-01-26 12:28:52] HA switching to server: 50.7.12.147:8097
+[2020-01-26 12:29:22] 50.7.12.147:8097 timed out
+[2020-01-26 12:30:03] HA switching to server: 185.186.245.44:8099
+[2020-01-26 12:31:07] 185.186.245.44:8099 timed out
+[2020-01-26 12:31:10] HA switching to server: 50.7.12.147:8097
+[2020-01-26 12:31:11] 185.186.245.44:8099 timed out
+[2020-02-16 12:54:52] HA switching to server: 185.186.245.44:8099
+[2020-02-16 12:54:52] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:55:01] 185.186.245.44:8099 timed out
+[2020-02-16 12:55:01] HA switching to server: 50.7.12.147:8097
+[2020-02-16 12:55:06] 50.7.12.147:8097 timed out
+[2020-02-16 12:55:06] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2020-02-16 12:57:08] HA switching to server: 185.186.245.44:8099
+[2020-02-16 12:57:08] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:57:16] 185.186.245.44:8099 timed out
+[2020-02-16 12:57:16] HA switching to server: 50.7.12.147:8097
+[2020-02-16 12:57:17] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2020-02-16 12:57:17] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:57:20] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:57:24] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:57:24] Shadowsocks started (4.1.8.0)
+[2020-02-16 12:58:36] 172.104.99.75:8099 timed out
+[2020-02-16 12:59:08] 172.104.99.75:8099 timed out
+[2020-02-16 13:00:10] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:16] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:16] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:16] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:16] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:16] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:16] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:16] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:16] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:17] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:18] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:18] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:18] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:18] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:18] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:19] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:20] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:20] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:22] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:23] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:28] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:29] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:29] HA switching to server: 172.104.99.75:8099
+[2020-02-16 13:00:30] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:30] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:30] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:30] 50.7.12.147:8097 timed out
+[2020-02-16 13:00:31] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:31] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:45] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:45] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:00:52] 172.104.99.75:8099 timed out
+[2020-02-16 13:00:52] 172.104.99.75:8099 timed out
+[2020-02-16 13:00:52] HA switching to server: 185.186.245.44:8099
+[2020-02-16 13:00:57] 185.186.245.44:8099 timed out
+[2020-02-16 13:00:57] HA switching to server: 50.7.12.147:8097
+[2020-02-16 13:00:58] 185.186.245.44:8099 timed out
+[2020-02-16 13:01:00] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:01:06] Shadowsocks started (4.1.8.0)
+[2020-02-16 13:01:11] 185.186.245.44:8099 timed out
+[2020-02-21 19:08:28] System.Exception: 端口 1080 是系统保留端口 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2020-02-21 19:08:32] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1080
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
